@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "What's the current time?", "Do you know the time?"],
+      "responses": ["The current time is {}.", "It is currently {}.", "Right now, it's {}."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "What is your creator's name?", "Who made you?"],
+      "responses": ["I was created by Gurv Gupta, a Deep Learning Enthusiast", "My maker is Gurv Gupta, a Python Developer focused on advancing AI research and development."]
+    },
+    {
+      "tag": "bot_name",
+      "patterns": ["What is your name?", "What should I call you?", "Do you have a name?"],
+      "responses": ["My name is CipherChat. It's nice to meet you!", "You can call me CipherChat, your personal assistant."]
+    },
+    {
+      "tag": "dataset",
+      "patterns": ["What dataset were you trained on?", "What data did you learn from?", "Which dataset were you built on?"],
+      "responses": ["I was trained on a small corpus of text data, including some articles, books, and web pages. The data was preprocessed and used to train a deep learning model, which allows me to understand and generate human-like responses."]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "What do you call a fish wearing a crown? King of the sea!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "How do you organize a space party? You planet!",
+        "Why did the bicycle fall over? Because it was two-tired!",
+        "What did one wall say to the other wall? I'll meet you at the corner!",
+        "Why don't eggs tell jokes? Because they might crack up!",
+        "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+        "What did one hat say to the other hat? You stay here, I'll go on ahead!"
+      ]
+    }
+  ]
+}
